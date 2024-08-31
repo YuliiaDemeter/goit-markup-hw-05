@@ -623,10 +623,49 @@ background-color: #31d0aa;
   background-color: #fcfcfc;
   border-radius: 4px;
   transform: translate(-50%, -50%);
-
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop:not(.is-open) .modal{
   transform: translate(-50%, -50%) scale(1.5);
 }
+
+.modal-button-close{
+  display: flex;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color:#e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);  
+}
+
+.icons-close{
+  fill:#2E2F42;
+}
+
+.modal-button-close:hover,.modal-button-close:focus{
+  background-color: #404bbf;
+  border-radius: 100%;
+  border: none;
+}
+
+.modal-button-close:hover .icons-close,.modal-button-close:focus .icons-close{
+  fill: #fff;
+}
+
+.modal-paragraph{
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  padding-top: 72px;
+  }
