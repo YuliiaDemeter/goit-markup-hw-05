@@ -601,7 +601,7 @@ background-color: #31d0aa;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .subscribe-form{
@@ -662,6 +662,7 @@ background-color: #31d0aa;
   left: 0;
   width: 100%;
   height: 100%;
+  
   z-index: 999;
   justify-content: center;
   align-items: center;
@@ -684,12 +685,12 @@ background-color: #31d0aa;
   top: 50%;
   left: 50%;
   width: 408px;
+  transform: translate(-50%, -50%);
   min-height: 584px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
   border-radius: 4px;
   padding: 72px 24px 24px;
-  transform: translate(-50%, -50%);
   overflow-y: auto;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -708,8 +709,12 @@ background-color: #31d0aa;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  padding: 0;
+  stroke-width: 1px;
   background-color:#e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);  
+  border: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .icons-close{
@@ -722,7 +727,8 @@ background-color: #31d0aa;
   border: none;
 }
 
-.modal-button-close:hover .icons-close,.modal-button-close:focus .icons-close{
+.modal-button-close:hover > .icons-close,
+.modal-button-close:focus > .icons-close {
   fill: #fff;
 }
 
