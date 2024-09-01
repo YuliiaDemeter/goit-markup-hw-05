@@ -751,7 +751,7 @@ background-color: #31d0aa;
   }
 
   .modal-input-container{
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 
   .modal-input-label{
@@ -768,6 +768,11 @@ background-color: #31d0aa;
     display: flex;
     position: relative;
   }
+
+  .comment-box {
+    margin-bottom: 16px;
+  }
+
 
   .modal-input{
     display: block;
