@@ -593,6 +593,68 @@ background-color: #404BBF;
 background-color: #31d0aa;
 }
 
+/* Subscribe form footer */
+
+.subscribe-title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-bottom: 16px;
+}
+
+.subscribe-form{
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-input{
+  padding: 8px 16px;
+  background-color: #2e2f42;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+}
+
+.subscribe-button{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    background-color: #4d5ae5;
+    border: 1px solid #4d5ae5;
+    cursor: pointer;
+    border: none;
+}
+
+.icons-subscribe{
+    fill: #fff;
+    margin-left: 16px;
+  }
+
+
+
+
+
+/* Modal section */
+
 .backdrop{
   display: flex;
   position: fixed;
