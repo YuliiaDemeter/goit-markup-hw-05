@@ -576,9 +576,7 @@
       </div>
     </footer>
 
-<main></main>
 
-<footer></footer>
 
 <!-- Modal section -->
 
@@ -627,16 +625,26 @@
                 <div class="modal-comment-container">
                   <label class="modal-label" for="comment">Comment</label>
                    <textarea class="comment-text" name="comment" id="comment" placeholder="Text input"></textarea>
-                    </div>
-                    
-      
+                    </div>                 
+          
+    
+    <div class="check-box">
+      <input class="modal-checkbox-input visually-hidden" type="checkbox" name="privacy" id="privacy" value="true" />
+      <label class="modal-checkbox-label" for="privacy">
+        <span class="checkbox-span">
+          <svg class="checkbox-icon" width="10" height="8">
+            <use href="./images/icons.svg#icon-icon-checkbox"></use>
+          </svg>
+        </span>
+          I accept the terms and conditions of the 
+          <a class="privacy-text" href="" >Privacy Policy</a>
+      </label>
     </div>
-    
-    
-    
+    <button class="modal-button" type="submit">
+      Send
+    </button>    
   </form>
-
-
+    </div>
 
   </body>
 </html>
