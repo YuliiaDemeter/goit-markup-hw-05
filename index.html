@@ -631,7 +631,7 @@
         <div class="modal-input-container">
           <label class="modal-input-label" for="phone">Phone</label>
             <div class="modal-input-box">
-              <input class="modal-input" type="tel" name="phone" id="phone" />
+              <input class="modal-input" type="tel" name="phone" id="phone" required />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -641,7 +641,7 @@
             <div class="modal-input-container">
               <label class="modal-input-label" for="email">Email</label>
                 <div class="modal-input-box">
-                  <input class="modal-input" type="email" name="email" id="email" />
+                  <input class="modal-input" type="email" name="email" id="email" required  />
                   <svg class="modal-icon" width="18" height="24">
                     <use href="./images/icons.svg#icon-email"></use>
                   </svg>
@@ -654,7 +654,7 @@
       <div class="check-box">
       <input class="modal-checkbox-input visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" />
       <label class="modal-checkbox-label" for="user-privacy">
-        <span class="checkbox-span">
+        <span class="checkbox-span" aria-hidden="true">
           <svg class="checkbox-icon" width="10" height="8">
             <use href="./images/icons.svg#icon-checkbox"></use>
           </svg>
