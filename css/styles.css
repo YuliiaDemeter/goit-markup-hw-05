@@ -259,8 +259,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-bottom: 8px;
-}
+  }
 
 .features-icons-item {
   display: flex;
@@ -331,7 +330,6 @@ a {
 
 .team-list-names {
   text-align: center;
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -341,7 +339,6 @@ a {
 
 .team-list-text {
   line-height: 1.5;
-  margin-bottom: 8px;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--slate);
@@ -433,8 +430,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
-  margin-bottom: 8px;
+  color: var(--navy-blue);  
 }
 
 .portfolio-list-text {
@@ -451,6 +447,7 @@ a {
   justify-content: center;
   flex-direction: column;
   border-top: none;
+  gap: 8px;
   border-bottom: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
