@@ -373,6 +373,7 @@ a {
 
 .icons-list-item {
   fill: var(--cloud);
+  margin-left: 16px;
 }
 
 /* Portfolio section */
