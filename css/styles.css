@@ -593,6 +593,13 @@ a {
   border: 1px solid var(--iris);
   cursor: pointer;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--ocean);
 }
 
 .icons-subscribe{
@@ -853,11 +860,11 @@ a {
     border: none;
     margin: 0 auto;
     cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .modal-button:hover,
-  .modal-button:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  .modal-button:focus {    
     background-color: var(--ocean);
   }
